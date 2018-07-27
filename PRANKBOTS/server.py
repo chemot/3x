@@ -25,10 +25,10 @@ class LineServer(object):
         'LINE_MUSIC': '1381425814'
     }
 
-    USER_AGENT  = 'Line/8.0.1'
-    APP_TYPE    = ApplicationType.DESKTOPWIN
-    APP_NAME    = "CHROMEOS\t8.1.1\tPrankBots11.2.5"
-    PHONE_TYPE  = ApplicationType.IOS
+    USER_AGENT  = 'Line/2.1.5'
+    APP_TYPE    = 'ApplicationType_VALUES_TO_NAMES[368]'
+    APP_NAME    = 'CHROMEOS\t2.1.5\tChrome_OS\t1'
+    PHONE_TYPE  = 'ApplicationType.IOS'
     PHONE_NAME  = 'IOS\t7.14.0\tiPhone OS\t10.12.0'
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'PrankBots'
